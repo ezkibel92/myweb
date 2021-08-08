@@ -270,6 +270,38 @@ body {
 	
 }
 
+.contenido {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.informacion {
+    padding: 20% 10%;
+    
+}
+
+.informacion p {
+    margin: 3%;
+}
+
+.formulario {
+    width: 80vw;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.campos-form {
+    padding: 2%;
+    width: 80vw;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border: 2px solid rgb(0, 145, 147);
+}
+
+.campos-form textarea{
+    width: 90vw;
+}
+
 #btn-menu {
     display: none;
 }
