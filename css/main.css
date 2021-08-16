@@ -37,9 +37,11 @@ body {
 
 .header-menu {
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     position: fixed;
     z-index: 2;
+    justify-content: space-around;
+    transition: 0.7s;
 }
 
 .header-menu img {
@@ -63,9 +65,11 @@ body {
     background-color: rgba(0, 145, 147,0.2);
 }
 
+
+
 .menu {
     position:fixed;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     width: 70%;
     margin-left: 100%;
     transition: all 0.5s;
@@ -89,13 +93,25 @@ body {
 
 .menu li a {
     display: block;
-    padding: 15px 20px;
-    color: rgb(0, 145, 147);
+    padding: 20px 20px;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .menu li a:hover {
     color: rgb(255, 255, 255);
+}
+
+.abajo{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(0, 145, 147);
+}
+.abajo2{
+    background-color: rgb(255, 255, 255);
+}
+
+.abajo2 li a {
+    color: rgb(0, 145, 147);
 }
 
 .frase {
@@ -322,7 +338,7 @@ body {
 @media (min-width: 768px) {
 
     .cabeza {
-        height: 85vh;
+        height: 100vh;
     }
 
     .cabeza h1 {
@@ -331,9 +347,13 @@ body {
         margin-top: 0%;
         margin-bottom: 1%;
         padding-top: 20% ;
+        font-size: 350%;
+
     }
 
-
+    .header-menu {
+        
+    }
     .header-menu label {
         visibility: hidden;
     }
@@ -344,9 +364,9 @@ body {
 
 
     .menu {
-        background-color: rgb(255, 255, 255);
-        width: 50%;
+        width: 40%;
         margin-left: 0%;
+        position: relative;
         
     }
 
@@ -359,20 +379,22 @@ body {
         
     }
     
-
-    .slider {
-        width: 30%;
+    .menu li {
+        border-top: none;  
     }
     
 
     .card {
         margin: 0 auto;
-        padding-left: 10%;
+        padding-left: 8%;
     }
     .habilidades {
-        width: 100vw;
-        height: 430px;
+        padding-top: 5vw;
+        width: 90vw;
+        height: 150vh;
+        max-width: 100vw;
         margin: 0;
+        
         
 
     
@@ -380,11 +402,48 @@ body {
     
     .habilidades .misHabilidades {
         display: inline-block;
+        width: 25vw;
+        height: 70vh;
+        margin: 1%;
+        
 
     }
     
+    .slider-box {
+        width: 98.75vw;
+        height: 100%;
 
+    }
     
+    .slider {
+        width: 95%;
+    }
+
+    .slider ul {
+        display: inline;
+    }
+
+    .slider li {
+        display: inline;
+    }
+    
+    .slider img {
+        width: 22%;
+        margin-left: 9%;
+        margin-top: 2%;
+    }
+
+    @keyframes cambio {
+        0% {margin-left: 0;}
+        20% {margin-left: 0;}
+        
+        40% {margin-left: 0%;}
+        60% {margin-left: 0%;}
+        
+        80% {margin-left: 0%;}
+        100% {margin-left: 0%;}
+        
+    }
 }
 
 
