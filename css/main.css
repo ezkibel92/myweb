@@ -24,12 +24,16 @@ body {
     text-align: center;
     margin-bottom: 3%;
     padding-top: 50% ;
+    font-size: 35px;
+    font-family: verdana;
+    
 }
 
 .cabeza h5 {
     color: rgb(255, 255, 255);
     text-align: center;
     margin-bottom: 12%;
+    font-size: 25px;
     
 
 }
@@ -76,6 +80,7 @@ body {
 }
 
 .menu ul {
+    
     margin: 0;
     flex-direction: column;
     list-style: none;
@@ -84,7 +89,8 @@ body {
 }
 
 .menu li {
-    border-top: 1px solid rgb(0, 145, 147);  
+    border-top: 1px solid rgb(0, 145, 147);
+    background-color: rgb(255, 255, 255);
 }
 
 .menu li:hover {
@@ -94,7 +100,7 @@ body {
 .menu li a {
     display: block;
     padding: 20px 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 145, 147);
     text-decoration: none;
 }
 
@@ -342,7 +348,7 @@ body {
     }
 
     .cabeza h1 {
-        color: rgb(255, 255, 255);
+        
         text-align: center;
         margin-top: 0%;
         margin-bottom: 1%;
@@ -351,9 +357,7 @@ body {
 
     }
 
-    .header-menu {
-        
-    }
+    
     .header-menu label {
         visibility: hidden;
     }
