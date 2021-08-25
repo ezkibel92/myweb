@@ -38,6 +38,26 @@ body {
 
 }
 
+.cabezaSobreMi {
+    height: 70vh;
+    background-image: url(../images/sobreMi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.cabezaSobreMi h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 3%;
+    padding-top: 50% ;
+    font-size: 35px;
+    font-family: verdana;
+
+}
+
 
 .header-menu {
     width: 100vw;
@@ -75,7 +95,7 @@ body {
     background-color: rgba(255, 255, 255, 0);
     width: 70%;
     margin-left: 100%;
-    transition: all 0.7s;
+    transition: all 0.6s;
 }
 
 .menu ul {
@@ -307,12 +327,23 @@ body {
 }
 
 .informacion {
-    padding: 20% 10%;
-    
+    padding: 5% 10%;
+    text-align: center;
+}
+
+.informacion h1,h2 {
+    color: rgb(0, 145, 147);
 }
 
 .informacion p {
     margin: 3%;
+}
+
+.informacion img {
+    width: 65%;
+    height: 65%;
+    display: block;
+    margin: auto;
 }
 
 .formulario {
@@ -358,7 +389,7 @@ body {
 
     }
 
-    
+   
     .header-menu label {
         visibility: hidden;
     }
@@ -366,6 +397,7 @@ body {
     .header-menu nav {
         float: right;
     }
+
 
 
     .menu {
@@ -393,6 +425,10 @@ body {
         
         color:  rgb(255, 255, 255);
        
+    }
+
+    .abajo2 {
+        background-color: rgba(255, 255, 255, 0);
     }
 
     .abajo2 li a {
