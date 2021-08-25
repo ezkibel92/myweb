@@ -40,7 +40,7 @@ body {
 
 
 .header-menu {
-    width: 100%;
+    width: 100vw;
     background-color: rgba(255, 255, 255, 0);
     position: fixed;
     z-index: 2;
@@ -57,7 +57,6 @@ body {
     display: block;
     width: 50px;
     height: 50px;
-    border-right: 1px solid rgb(255, 255, 255);
 }
 
 .header-menu label img {
@@ -76,7 +75,7 @@ body {
     background-color: rgba(255, 255, 255, 0);
     width: 70%;
     margin-left: 100%;
-    transition: all 0.5s;
+    transition: all 0.7s;
 }
 
 .menu ul {
@@ -108,12 +107,14 @@ body {
     color: rgb(255, 255, 255);
 }
 
+
 .abajo{
     background-color: rgb(255, 255, 255);
     border-bottom: 1px solid rgb(0, 145, 147);
 }
 .abajo2{
     background-color: rgb(255, 255, 255);
+    
 }
 
 .abajo2 li a {
@@ -384,9 +385,20 @@ body {
     }
     
     .menu li {
-        border-top: none;  
+        border-top: none;
+        background-color: rgba(255, 255, 255, 0);
     }
     
+    .menu li a {
+        
+        color:  rgb(255, 255, 255);
+       
+    }
+
+    .abajo2 li a {
+        color: rgb(0, 145, 147);
+    }
+
 
     .card {
         margin: 0 auto;
