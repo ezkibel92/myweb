@@ -39,7 +39,7 @@ body {
 }
 
 .cabezaSobreMi {
-    height: 70vh;
+    height: 85vh;
     background-image: url(../images/sobreMi.jpg);
     background-size: cover;
     background-position: center;
@@ -344,6 +344,16 @@ body {
     height: 65%;
     display: block;
     margin: auto;
+}
+
+.cv {
+    background-color: rgb(253, 242, 233);
+    padding: 5%;
+}
+
+.cv h1{
+    color: rgb(0, 145, 147);
+    text-align: center;
 }
 
 .formulario {
