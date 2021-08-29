@@ -59,6 +59,8 @@ body {
 }
 
 
+
+
 .header-menu {
     width: 100vw;
     background-color: rgba(255, 255, 255, 0);
@@ -354,6 +356,59 @@ body {
 .cv h1{
     color: rgb(0, 145, 147);
     text-align: center;
+    padding: 10% 0 5% 0; 
+}
+
+.experiencia {
+    background-color: rgb(255, 255, 255);
+    padding: 5%;
+}
+
+.experiencia h1 {
+    color: rgb(0, 145, 147);
+    text-align: center;
+    padding: 10% 0 5% 0; 
+
+}
+
+
+.experiencia li {
+    list-style-type: none;
+    padding: 2% 2% 2% 2%;
+}
+
+.experiencia li:before { 
+    content: "- ";
+ }
+
+ .experiencia a{
+     text-decoration: none;
+     color: rgb(0, 145, 147);
+ }
+
+.empresa {
+    font-size: 1.5rem;
+    
+}
+
+.contacto {
+    height: 82vh;
+    background-image: url(../images/contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.contacto h1 {
+    
+     color: rgb(255, 255, 255);
+     text-align: center;
+     margin-bottom: 3%;
+     padding-top: 50% ;
+    font-size: 35px;
+    font-family: verdana;
+    
+    
 }
 
 .formulario {
