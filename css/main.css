@@ -13,7 +13,7 @@ body {
 }
 
 .cabeza {
-    height: 70vh;
+    height: 90vh;
 }
 
 
@@ -58,7 +58,23 @@ body {
 
 }
 
+.cabezaProyectos {
+    height: 82vh;
+    background-image: url(../images/proyecto2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
+.cabezaProyectos h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 3%;
+    padding-top: 50% ;
+    font-size: 35px;
+    font-family: verdana;
+
+}
 
 
 .header-menu {
@@ -278,49 +294,6 @@ body {
     margin: 10px;
 }
 
-.slider-box {
-    width: 100vw;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
-}
-
-.slider {
-	width: 95%;
-	margin: auto;
-	overflow: hidden;
-}
-
-.slider ul {
-	display: flex;
-	padding: 0;
-	width: 300%;
-	
-	animation: cambio 15s infinite alternate linear;
-}
-
-.slider li {
-	width: 100%;
-	list-style: none;
-}
-
-.slider img {
-	width: 80%;
-    margin-left: 10%;
-    margin-top: 10%;
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-
-@keyframes cambio {
-	0% {margin-left: 0;}
-	20% {margin-left: 0;}
-	
-	40% {margin-left: -100%;}
-	60% {margin-left: -100%;}
-	
-	80% {margin-left: -200%;}
-	100% {margin-left: -200%;}
-	
-}
 
 
 .contenido {
@@ -526,41 +499,7 @@ body {
 
     }
     
-    .slider-box {
-        width: 98.75vw;
-        height: 100%;
-
-    }
     
-    .slider {
-        width: 95%;
-    }
-
-    .slider ul {
-        display: inline;
-    }
-
-    .slider li {
-        display: inline;
-    }
-    
-    .slider img {
-        width: 22%;
-        margin-left: 9%;
-        margin-top: 2%;
-    }
-
-    @keyframes cambio {
-        0% {margin-left: 0;}
-        20% {margin-left: 0;}
-        
-        40% {margin-left: 0%;}
-        60% {margin-left: 0%;}
-        
-        80% {margin-left: 0%;}
-        100% {margin-left: 0%;}
-        
-    }
 }
 
 

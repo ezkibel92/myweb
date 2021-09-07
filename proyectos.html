@@ -10,12 +10,8 @@
 </head>
 <body>
     <header class="header-menu"> 
-        <img src="images/firma.png" alt="logo">
         <input type="checkbox" id="btn-menu">
-        <label for="btn-menu">
-            <img src="images/boton1.png" alt="boton del menu">
-        </label>
-
+        <img id="imagenfirma" src="images/firma2.png" alt="logo">
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -25,30 +21,32 @@
                 <li><a href="contactos.html">Contacto</a></li>
             </ul>
         </nav>
+        <label for="btn-menu">
+            <img id="botonmenu" src="images/boton2.png" alt="boton del menu">
+        </label>
+        
     </header>
 
-    <div class="contenido">
-        <div class="informacion"> 
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium sapiente quo. 
-                Debitis doloremque, omnis asperiores quam possimus exercitationem quaerat consequuntur 
-                inventore sed recusandae provident facere nobis velit illo est?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium sapiente quo. 
-                Debitis doloremque, omnis asperiores quam possimus exercitationem quaerat consequuntur 
-                inventore sed recusandae provident facere nobis velit illo est?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium sapiente quo. 
-                Debitis doloremque, omnis asperiores quam possimus exercitationem quaerat consequuntur 
-                inventore sed recusandae provident facere nobis velit illo est?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores accusantium sapiente quo. 
-                Debitis doloremque, omnis asperiores quam possimus exercitationem quaerat consequuntur 
-                inventore sed recusandae provident facere nobis velit illo est?
-            </p>
+    <div class="cabezaProyectos">
+        <h1>Mis Proyectos</h1>
+    </div>
+
+    <div class="card">
+        <div class="habilidades"> 
+            <div class="misHabilidades">
+                <div class="numero">
+                    <h5>Redes</h5>
+                    <img src="images/redes.png" alt="">
+                    <button class="btn" onclick="location.href='redes.html'">Leer más</button>
+                </div>
+            </div>
+            <div class="misHabilidades">
+                <div class="numero">
+                    <h5>Ciberseguridad</h5>
+                    <img src="images/ciberseguridad.png" alt="">
+                    <button class="btn" onclick="location.href='ciberseguridad.html'">Leer más</button>
+                </div>
+            </div>
         </div>
     </div>
 
