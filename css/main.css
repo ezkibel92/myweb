@@ -172,22 +172,23 @@ body {
 }
 .card {
     background-color: rgb(255, 255, 255);
-    justify-content: center;
+    height: 2000px;
 }
 
 .habilidades {
     background-color: rgb(255, 255, 255);
-    width: 80%;
+    width: 100%;
     max-width: 1200px;
     height: 430px;
     margin: auto;
     justify-content: center;
-    display: table;
+    display: flex;
     flex-wrap: wrap;
 
 }
 
 .habilidades .misHabilidades {
+
     width: 330px;
     height: 430px;
     border-radius: 8px;
