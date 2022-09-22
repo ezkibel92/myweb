@@ -12,6 +12,8 @@ body {
     background-attachment: fixed;
 }
 
+
+
 .cabeza {
     height: 90vh;
 }
@@ -51,8 +53,7 @@ body {
 .cabezaSobreMi h1 {
     color: rgb(255, 255, 255);
     text-align: center;
-    margin-bottom: 3%;
-    padding-top: 50% ;
+    padding-top: 65% ;
     font-size: 35px;
     font-family: verdana;
 
@@ -345,6 +346,11 @@ body {
 
 }
 
+.contenido p a{
+    text-decoration: none;
+    color: rgb(0, 145, 147);
+}
+
 .informacion {
     padding: 5% 10%;
     text-align: center;
@@ -371,11 +377,28 @@ body {
     padding: 5%;
 }
 
+.cv th {
+
+    background-color: rgb(223, 202, 185);
+
+}
+
 .cv h1{
     color: rgb(0, 145, 147);
     text-align: center;
     padding: 10% 0 5% 0; 
 }
+
+.cv li {
+    list-style-type: none;
+    padding: 2% 2% 2% 2%;
+}
+
+.cv li:before { 
+    content: "- ";
+ }
+
+ 
 
 .experiencia {
     background-color: rgb(255, 255, 255);
@@ -386,6 +409,12 @@ body {
     color: rgb(0, 145, 147);
     text-align: center;
     padding: 10% 0 5% 0; 
+
+}
+
+.experiencia th {
+
+    background-color: rgb(221, 214, 209);
 
 }
 
@@ -417,6 +446,11 @@ body {
     background-attachment: fixed;
 }
 
+.trFinal {
+
+    background-color: rgb(221, 214, 209);
+
+ }
 .contacto h1 {
     
      color: rgb(255, 255, 255);
